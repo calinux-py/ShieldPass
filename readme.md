@@ -27,3 +27,6 @@ ShieldPass is a secure and efficient password manager designed to protect your s
 - **AES Encryption (WZ_AES)**: Used for securing the folders that contain your encrypted data. AES is a widely trusted encryption standard.
 
 ShieldPass combines these encryption technologies to provide a robust and secure environment for managing your passwords and sensitive data.
+
+Download here:
+https://github.com/calinux-py/ShieldPass/archive/refs/tags/shieldpass.zip
