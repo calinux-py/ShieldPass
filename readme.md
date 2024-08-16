@@ -12,7 +12,7 @@ ShieldPass is a secure and efficient password manager designed to protect your s
 
 - **Master Password**: The master password, required to access the application, is securely hashed using the scrypt algorithm with a high work factor, making it resistant to brute-force attacks.
 
-- **User-Friendly Interface**: ShieldPass offers a simple and intuitive interface built with PyQt5, making it easy to manage your passwords and other sensitive information.
+- **User-Friendly Interface**: ShieldPass offers a simple and intuitive interface making it easy to manage your passwords and other sensitive information.
 
 - **Backup Options**: ShieldPass allows you to create local or Discord backups of your encrypted data, ensuring that you always have a secure copy of your passwords available.
 
