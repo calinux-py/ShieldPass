@@ -1,6 +1,6 @@
 # ShieldPass
 
-ShieldPass is a secure and efficient password manager designed to protect your sensitive data by leveraging external USB storage for key management. ShieldPass ensures that your passwords and other sensitive information are encrypted using strong encryption algorithms and are only accessible when the correct USB key is connected.
+ShieldPass is a secure and efficient password manager designed to protect your sensitive data by leveraging external USB storage for key management and layered encryption. ShieldPass ensures that your passwords and other sensitive information are encrypted using strong encryption algorithms and are only accessible when the correct USB key is connected.
 
 ## Features
 
