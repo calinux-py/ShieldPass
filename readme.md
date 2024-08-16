@@ -8,7 +8,7 @@ ShieldPass is a secure and efficient password manager designed to protect your s
   
 - **External Key Management**: The key used to encrypt and decrypt your data is stored on an external USB device. This adds an extra layer of security, ensuring that even if your computer is compromised, your data remains safe as long as the USB key is not connected.
 
-- **File Encryption**: ShieldPass stores its encrypted data in an encrypted folder combining AES encryption and ChaCha20-Poly1305 for added security. The ZIP file contains all sensitive data, including your password database, and is only accessible with the correct key.
+- **File Encryption**: ShieldPass stores its encrypted data in an encrypted folder combining AES encryption and ChaCha20-Poly1305 for added security. This folder acts as the "front door" to your data. Only the external USB key can unlock it.
 
 - **Master Password**: The master password, required to access the application, is securely hashed using the scrypt algorithm with a high work factor, making it resistant to brute-force attacks.
 
