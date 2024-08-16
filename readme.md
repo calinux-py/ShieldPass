@@ -24,6 +24,6 @@ ShieldPass is a secure and efficient password manager designed to protect your s
   
 - **scrypt**: Used for deriving keys from the master password. scrypt is highly resistant to brute-force attacks due to its memory-intensive design.
   
-- **AES Encryption (WZ_AES)**: Used for securing the ZIP files that contain your encrypted data. AES is a widely trusted encryption standard.
+- **AES Encryption (WZ_AES)**: Used for securing the folders that contain your encrypted data. AES is a widely trusted encryption standard.
 
 ShieldPass combines these encryption technologies to provide a robust and secure environment for managing your passwords and sensitive data.
