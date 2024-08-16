@@ -16,7 +16,7 @@ ShieldPass is a secure and efficient password manager designed to protect your s
 
 - **Backup Options**: ShieldPass allows you to create local or Discord backups of your encrypted data, ensuring that you always have a secure copy of your passwords available.
 
-- **Automatic Locking**: When the application is closed or the USB key is removed, ShieldPass automatically locks your data back into an encrypted ZIP file, ensuring that your information is always secure.
+- **Automatic Locking**: When the application is closed or the USB key is removed, ShieldPass automatically encrypts your data and then locks it in another encrypted folder, ensuring that your information is always secure.
 
 ## Encryption Standards
 
