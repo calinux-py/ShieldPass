@@ -2,10 +2,9 @@
 
 **Contents**
 1. [ShieldPass Overview](#shieldpass-overview)
-2. [Disclaimer](#disclaimer)
-3. [ShieldPass MFA](#shieldpass-mfa)
-4. [ShieldPass USB](#shieldpass-usb)
-5. [Author](#author)
+2. [ShieldPass MFA](#shieldpass-mfa)
+3. [ShieldPass USB](#shieldpass-usb)
+4. [Author](#author)
 
 ---
 
