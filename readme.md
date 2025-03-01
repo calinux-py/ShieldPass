@@ -60,7 +60,7 @@ ShieldPass MFA is a secure, local password manager that protects your sensitive 
 
 ## MFA Setup & Verification
 
-- **TOTP Generation:** ShieldPass uses TOTP to generate time-based one-time passwords.
+- **TOTP Generation:** ShieldPass MFA uses TOTP to generate time-based one-time passwords.
 - **QR Code Provisioning:** A QR code is generated for easy setup with authenticator apps (like Google Authenticator or Microsoft Authenticator).
 
 ---
