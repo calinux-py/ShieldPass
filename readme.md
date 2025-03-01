@@ -1,9 +1,9 @@
 # ShieldPass
 
-ShieldPass is a secure local password manager. There are two versions: USB-based and MFA-based. 
+ShieldPass is a secure local password manager. There are two versions: MFA-based and USB-based. 
 
-- ShieldPass USB requires an external USB to unlock your passwords -- requiring a physical key to unlock.
 - ShieldPass MFA -- our most updated version of ShieldPass -- requires MFA via authenticator application.
+- ShieldPass USB requires an external USB to unlock your passwords -- requiring a physical key to unlock.
 
 ## Disclaimer
 
