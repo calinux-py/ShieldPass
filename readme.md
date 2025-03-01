@@ -7,7 +7,7 @@ ShieldPass is a secure local password manager. There are two versions: MFA-based
 
 ## Disclaimer
 
-ShieldPass is intended for secure local management of your sensitive credentials. The overall security depends on the strength of your master password and proper safeguarding of your backup MFA secret. Always follow best practices for password and data security.
+ShieldPass is intended for secure local management of your sensitive credentials. The overall security depends on the strength of your master password and proper safeguarding. Always follow best practices for password and data security.
 
 ---
 ---
