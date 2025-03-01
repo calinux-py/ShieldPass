@@ -1,9 +1,22 @@
 # ShieldPass
 
+**Contents**
+1. [ShieldPass Overview](#shieldpass-overview)
+2. [Disclaimer](#disclaimer)
+3. [ShieldPass MFA](#shieldpass-mfa)
+4. [ShieldPass USB](#shieldpass-usb)
+5. [Author](#author)
+
+---
+
+## ShieldPass Overview
+
 ShieldPass is a secure local password manager. There are two versions: MFA-based and USB-based. 
 
-- ShieldPass MFA -- our most updated version of ShieldPass -- requires MFA via authenticator application.
-- ShieldPass USB requires an external USB to unlock your passwords -- requiring a physical key to unlock.
+- **ShieldPass MFA** — our most updated version of ShieldPass — requires multi-factor authentication via an authenticator application.
+- **ShieldPass USB** uses an external USB device as a physical key to unlock your passwords, offering an alternative layer of protection.
+
+---
 
 ## Disclaimer
 
@@ -68,27 +81,23 @@ ShieldPass MFA is a secure, local password manager that protects your sensitive 
 
 # ShieldPass USB
 
-- **Password Encryption**: ShieldPass uses the ChaCha20-Poly1305 algorithm, a modern and secure encryption standard, to encrypt your data. This ensures that your passwords and other sensitive information are protected against unauthorized access.
-  
-- **MFA via T**: The key used to encrypt and decrypt your data is stored on an external USB device. This adds an extra layer of security, ensuring that even if your computer is compromised, your data remains safe as long as the USB key is not connected.
+ShieldPass USB is our alternative secure, local password manager that, much like ShieldPass MFA, ensures your sensitive credentials are protected using state-of-the-art encryption techniques—but with one key difference. Instead of an authenticator app, ShieldPass USB relies on a physical USB device to serve as the additional authentication factor.
 
-- **File Encryption**: ShieldPass stores its encrypted data in an encrypted folder combining AES encryption and ChaCha20-Poly1305 for added security. This folder acts as the "front door" to your data. Only the external USB key can unlock it.
+## Features
 
-- **Master Password**: The master password, required to access the application, is securely hashed using the scrypt algorithm with a high work factor, making it resistant to brute-force attacks.
+- **Robust Password Encryption:** Utilizes the ChaCha20-Poly1305 algorithm to encrypt your data, ensuring that your passwords and sensitive information are safeguarded.
+- **Physical Key Security:** The encryption key used for both encrypting and decrypting your data is securely stored on an external USB device. This means that even if your computer is compromised, your data remains inaccessible without the USB key.
+- **Layered File Encryption:** Data is stored within an encrypted folder that combines AES encryption with ChaCha20-Poly1305. This folder acts as a secure gateway to your information, which can only be unlocked with the USB key.
+- **Master Password Protection:** Access to the application requires a master password, which is securely hashed using the scrypt algorithm with a high work factor, making it highly resistant to brute-force attacks.
+- **User-Friendly Interface:** An intuitive and simple interface makes managing your passwords and other sensitive data straightforward.
+- **Flexible Backup Options:** Offers the ability to create local backups or secure backups via Discord, ensuring you always have a safe copy of your encrypted data.
+- **Automatic Locking:** When the application is closed or the USB key is removed, ShieldPass USB automatically re-encrypts and locks your data in a secure folder.
 
-- **User-Friendly Interface**: ShieldPass offers a simple and intuitive interface making it easy to manage your passwords and other sensitive information.
+## Encryption & Security Details
 
-- **Backup Options**: ShieldPass allows you to create local or Discord backups of your encrypted data, ensuring that you always have a secure copy of your passwords available.
-
-- **Automatic Locking**: When the application is closed or the USB key is removed, ShieldPass automatically encrypts your data and then locks it in another encrypted folder, ensuring that your information is always secure.
-
-## Encryption Standards
-
-- **ChaCha20-Poly1305**: Used for encrypting passwords and other sensitive data. This algorithm is known for its speed and security, providing both encryption and integrity verification.
-  
-- **scrypt**: Used for deriving keys from the master password. scrypt is highly resistant to brute-force attacks due to its memory-intensive design.
-  
-- **AES Encryption (WZ_AES)**: Used for securing the folders that contain your encrypted data. AES is a widely trusted encryption standard.
+- **Encryption Standards:** ShieldPass USB employs the robust ChaCha20-Poly1305 algorithm for encrypting sensitive data. Additionally, AES encryption (WZ_AES) secures the folders containing your data—mirroring the multi-layered security approach seen in ShieldPass MFA.
+- **Key Derivation:** The master password is processed using the scrypt algorithm, ensuring that the derived key is highly resistant to brute-force attacks.
+- **Physical Authentication:** By requiring a dedicated USB key to store and access the encryption key, ShieldPass USB provides a tangible layer of security that complements its digital encryption methods.
 
 ---
 ---
