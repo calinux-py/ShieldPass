@@ -48,7 +48,7 @@ ShieldPass MFA is a secure, local password manager that protects your sensitive 
   4. The encrypted output (salt + nonce + ciphertext) is then base64 encoded.
 
 ### Encrypted ZIP Storage
-- **Library:** pyzipper (AESZipFile)
+- **Library:** AESZipFile
 - **Encryption:** Uses AES-based encryption (WZ_AES) with LZMA compression.
 - **Password Management:**
   - A unique ZIP password is generated using secure random tokens.
